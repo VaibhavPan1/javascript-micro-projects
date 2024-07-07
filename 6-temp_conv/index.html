@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp conv</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <h1>Temperature Conv</h1>
+        <input type="number" id="inputText"><br>
+        <input class="radio" id="toCel" type="radio" name="unit">
+        <label for="toCel">F -> C</label><br>
+        <input class="radio" id="toFah" type="radio" name="unit">
+        <label for="toFah">C -> F</label><br>
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result"></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
